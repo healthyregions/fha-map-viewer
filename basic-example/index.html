@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add a raster tile source</title>
+    <meta property="og:description" content="Add a third-party raster source to the map." />
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.css' />
+    <script src='https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.js'></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        html, body, #map { height: 100%; }
+    </style>
+</head>
+<body>
+<div style="display:flex; height:100vh">
+    <div id="toc" style="min-width:300px; background:lightgrey;">
+        <h1 id="map-title"></h1>
+        <div class="map-overlay-inner">
+        <div id="transparency-slider-container">
+        </div>
+      </div>
+        <ul id="citylist" style="height:calc(100vh - 125px); overflow-y:scroll"></ul>
+    </div>
+    <div id="map" style="width:100%;"></div>
+</div>
+<script>
+    let items;
+    fetch('./fha-map-data.json')
+        .then((response) => response.json())
+        .then((json) => {
+            items = json.items;
+            items.sort(function(a, b) {
+                return a.title.localeCompare(b.title);
+            });
+        });
+    const map = new maplibregl.Map({
+        container: 'map', // container id
+        style: 'https://tiles.openfreemap.org/styles/liberty',
+        bounds: [
+            -81.6558837890625,
+            40.98819156349393,
+            -81.41418457031251,
+            41.16624933909198
+        ]
+    });
+    const setMap = function (mapid) {
+        const mapDef = mapLookup[mapid]
+        map.fitBounds(mapDef.bounds,{linear:true})
+        if (map.getStyle().layers.map(a => a.id).includes("overlay")){map.removeLayer("overlay")}
+        map.addLayer({
+            'id': "overlay",
+            'type': 'raster',
+            'source': mapid,
+            "paint": {
+                'raster-opacity': .7
+            }
+        })
+        document.getElementById("map-title").innerText = mapDef.title;
+        const sliderCon = document.getElementById("transparency-slider-container");
+        sliderCon.innerHTML = '';
+        const sliderEl = document.createElement('input');
+        sliderEl.setAttribute('id', 'slider');
+        sliderEl.setAttribute('class', 'sliders');
+        sliderEl.setAttribute('type', 'range');
+        sliderEl.setAttribute('min', '0');
+        sliderEl.setAttribute('max', '100');
+        sliderEl.setAttribute('step', '0');
+        sliderEl.setAttribute('value', '70');
+        sliderEl.addEventListener('input', function (e) {
+            map.setPaintProperty(
+                "overlay",
+                "raster-opacity",
+                parseInt(sliderEl.value, 10) / 100,
+            )
+        })
+        sliderCon.appendChild(sliderEl);
+    }
+    const mapLookup = {}
+    var slider = document.getElementById('slider');
+      var sliderValue = document.getElementById('slider-value');
+
+    map.on('load', () => {
+        const list = document.getElementById("citylist");
+
+        items.forEach(element => {
+            element.type = "raster";
+            map.addSource(element.id, element)
+            mapLookup[element.id] = element
+            const liEl = document.createElement('li');
+            const btnEl = document.createElement('button')
+            btnEl.addEventListener("click", () => {setMap(element.id)})
+            btnEl.innerHTML = element.title;
+            liEl.appendChild(btnEl);
+            list.appendChild(liEl);
+        });
+
+        setMap(items[0].id)
+    });
+</script>
+</body>
+</html>
