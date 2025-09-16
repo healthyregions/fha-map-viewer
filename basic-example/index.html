@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.css' />
     <script src='https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body { margin: 0; padding: 0; }
         html, body, #map { height: 100%; }
@@ -14,13 +16,14 @@
 </head>
 <body>
 <div style="display:flex; height:100vh">
-    <div id="toc" style="min-width:300px; background:lightgrey;">
+    <div id="toc" style="min-width:300px; max-width:300px; background:lightgrey;">
         <h1 id="map-title"></h1>
         <div class="map-overlay-inner">
         <div id="transparency-slider-container">
         </div>
       </div>
-        <ul id="citylist" style="height:calc(100vh - 125px); overflow-y:scroll"></ul>
+      <hr/>
+        <div id="citylist" style="height:calc(100vh - 125px); overflow-y:scroll; display:flex; flex-direction: column;"></div>
     </div>
     <div id="map" style="width:100%;"></div>
 </div>
@@ -56,7 +59,11 @@
                 'raster-opacity': .7
             }
         })
-        document.getElementById("map-title").innerText = mapDef.title;
+        const titleEl = document.getElementById("map-title")
+        titleEl.innerText = mapDef.title;
+        // const subtitleTl = document.createElement('small');
+        // subtitleTl.innerText = "download"
+        // titleEl.appendChild(subtitleTl)
         const sliderCon = document.getElementById("transparency-slider-container");
         sliderCon.innerHTML = '';
         const sliderEl = document.createElement('input');
@@ -87,7 +94,7 @@
             element.type = "raster";
             map.addSource(element.id, element)
             mapLookup[element.id] = element
-            const liEl = document.createElement('li');
+            const liEl = document.createElement('div');
             const btnEl = document.createElement('button')
             btnEl.addEventListener("click", () => {setMap(element.id)})
             btnEl.innerHTML = element.title;
