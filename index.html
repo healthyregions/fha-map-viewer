@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>FHA Block Data Viewer</title>
+    <title>FHA Block Data Maps</title>
     <meta property="og:description" content="Basic viewer and access to georeferenced FHA Block Data maps." />
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.css' />
     <script src='https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.js'></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css"> -->
+     <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body { margin: 0; padding: 0; }
         html, body, #map { height: 100%; }
+        select {margin: 0; max-width: 100%;}
+        #dialog-btn {background: none; color: blue;}
+        #showPanelBtn {display: none; position: absolute; z-index: 2000;}
+        #panel {display: flex; flex-direction: column;}
+        .control-box {background: lightcoral; padding: 1em;}
     </style>
 </head>
 <body>
 <div style="display:flex; height:100vh">
-    <div id="toc" style="min-width:300px; max-width:300px; background:lightgrey;">
-        <h1 id="map-title"></h1>
-        <div class="map-overlay-inner">
-        <div id="transparency-slider-container">
+    <button id="showPanelBtn" onclick="togglePanel()">show panel &rarr;</button>
+    <div id="panel" style="display: flex; min-width:300px; max-width:300px; background:lightgrey;">
+        <button onclick="togglePanel()">&larr; hide panel</button>
+        <h1 id="map-title">FHA Block Data Maps</h1>
+        <button id="dialog-btn" command="show-modal" commandfor="my-dialog">About this project</button>
+
+        <div class="control-box">
+            <p>Show map:</p>
+            <select id="cityselect"></select>
+            <p>Transparency:</p>
+            <input id="transparency-slider" type="range" min="0" max="100" step="0" value="100" />
         </div>
-      </div>
-      <hr/>
-        <div id="citylist" style="height:calc(100vh - 125px); overflow-y:scroll; display:flex; flex-direction: column;"></div>
     </div>
     <div id="map" style="width:100%;"></div>
+
+    <dialog id="my-dialog">
+        <p>More about the project here.</p>
+        <button commandfor="my-dialog" command="close">Close</button>
+    </dialog>
 </div>
 <script>
     let items;
@@ -55,52 +70,54 @@
             'id': "overlay",
             'type': 'raster',
             'source': mapid,
-            "paint": {
-                'raster-opacity': .7
-            }
         })
-        const titleEl = document.getElementById("map-title")
-        titleEl.innerText = mapDef.title;
-        // const subtitleTl = document.createElement('small');
-        // subtitleTl.innerText = "download"
-        // titleEl.appendChild(subtitleTl)
-        const sliderCon = document.getElementById("transparency-slider-container");
-        sliderCon.innerHTML = '';
-        const sliderEl = document.createElement('input');
-        sliderEl.setAttribute('id', 'slider');
-        sliderEl.setAttribute('class', 'sliders');
-        sliderEl.setAttribute('type', 'range');
-        sliderEl.setAttribute('min', '0');
-        sliderEl.setAttribute('max', '100');
-        sliderEl.setAttribute('step', '0');
-        sliderEl.setAttribute('value', '70');
-        sliderEl.addEventListener('input', function (e) {
+
+        const slider = document.getElementById("transparency-slider");
+        slider.value = 100;
+        slider.addEventListener('input', function (e) {
             map.setPaintProperty(
                 "overlay",
                 "raster-opacity",
-                parseInt(sliderEl.value, 10) / 100,
+                parseInt(slider.value, 10) / 100,
             )
         })
-        sliderCon.appendChild(sliderEl);
     }
     const mapLookup = {}
-    var slider = document.getElementById('slider');
-      var sliderValue = document.getElementById('slider-value');
+
+    function togglePanel() {
+        console.log("asdf")
+        const panelEl = document.getElementById("panel");
+        console.log(panelEl.style.display)
+
+        const showPanelBtn = document.getElementById("showPanelBtn");
+        if (panelEl.style.display == "flex") {
+            panelEl.style.display = "none";
+            showPanelBtn.style.display = "block";
+            
+        } else {
+            console.log('ok????')
+            panelEl.style.display = "flex";
+            showPanelBtn.style.display = "none";
+        }
+    }
 
     map.on('load', () => {
         const list = document.getElementById("citylist");
+        const selectList =  document.getElementById("cityselect")
 
         items.forEach(element => {
             element.type = "raster";
             map.addSource(element.id, element)
             mapLookup[element.id] = element
-            const liEl = document.createElement('div');
-            const btnEl = document.createElement('button')
-            btnEl.addEventListener("click", () => {setMap(element.id)})
-            btnEl.innerHTML = element.title;
-            liEl.appendChild(btnEl);
-            list.appendChild(liEl);
+
+            const selectOpt = document.createElement('option')
+            selectOpt.innerHTML = element.title;
+            selectOpt.value = element.id;
+            selectList.appendChild(selectOpt)
         });
+        selectList.addEventListener("change", (e) => {
+            setMap(e.target.value)
+        })
 
         setMap(items[0].id)
     });
