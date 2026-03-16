@@ -7,7 +7,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_harrisburg_pa__Zjc4su_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_harrisburg_pa__Zjc4su_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -31,7 +31,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_steelton_pa__mMHqk2_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_steelton_pa__mMHqk2_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -55,7 +55,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_aurora_il_1__McUZDq_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_aurora_il_1__McUZDq_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -79,7 +79,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_dallas_tx__bR4Y4C_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_dallas_tx__bR4Y4C_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -103,7 +103,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_anaconda_mt__4TN4Te_02.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_anaconda_mt__4TN4Te_02.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -127,7 +127,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_bradford_pa__1cTbH4_02.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_bradford_pa__1cTbH4_02.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -151,7 +151,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_austin_tx__aSFUcJ_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_austin_tx__aSFUcJ_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -175,7 +175,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_hagerstown_md__TlwCRs_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_hagerstown_md__TlwCRs_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -199,7 +199,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_columbus_ga__x7rWAi_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_columbus_ga__x7rWAi_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -223,7 +223,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_worcester_ma__YFTD4R_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_worcester_ma__YFTD4R_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -247,7 +247,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_syracuse_ny__4YEnct_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_syracuse_ny__4YEnct_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -271,7 +271,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_trenton_nj__vOVJkW_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_trenton_nj__vOVJkW_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -295,7 +295,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_niagara_falls_ny__ewSm7q_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_niagara_falls_ny__ewSm7q_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -319,7 +319,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_cairo_il__urFBD3_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_cairo_il__urFBD3_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -343,7 +343,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_racine_wi__XlxzNY_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_racine_wi__XlxzNY_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -367,7 +367,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_tampa_fl__sK4UIf_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_tampa_fl__sK4UIf_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -391,7 +391,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_portsmouth_va__EwV60O_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_portsmouth_va__EwV60O_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -415,7 +415,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_norfolk_va__ZTiXLb_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_norfolk_va__ZTiXLb_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -439,7 +439,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_aurora_il_2__VXtjL6_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_aurora_il_2__VXtjL6_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -463,7 +463,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_cheyenne_wy__l5lIcy_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_cheyenne_wy__l5lIcy_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -487,7 +487,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_brunswick_ga__tOhLaq_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_brunswick_ga__tOhLaq_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -511,7 +511,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_colorado_springs_co__nDTy75_03.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_colorado_springs_co__nDTy75_03.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -535,7 +535,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_frederick_md__60tiTm_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_frederick_md__60tiTm_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -559,7 +559,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_jackson_ms__JRETDR_05.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_jackson_ms__JRETDR_05.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -583,7 +583,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_newport_news_va__Mo7Pig_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_newport_news_va__Mo7Pig_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -607,7 +607,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_martinsville_va__pdCsF8_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_martinsville_va__pdCsF8_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -631,7 +631,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_oakland_ca__C1BnDJ_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_oakland_ca__C1BnDJ_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -655,7 +655,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_pensacola_fl__otPTtH_02.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_pensacola_fl__otPTtH_02.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -679,7 +679,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_reno_nv__aDvtKI_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_reno_nv__aDvtKI_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -703,7 +703,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_portland_me__tnrTGQ_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_portland_me__tnrTGQ_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -727,7 +727,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_shreveport_la_p1__ocukX2_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_shreveport_la_p1__ocukX2_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -751,7 +751,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_albuquerque_nm_p1__S0ipvm_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_albuquerque_nm_p1__S0ipvm_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -775,7 +775,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_euclid_oh_p1__t8qhyw_05.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_euclid_oh_p1__t8qhyw_05.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -799,7 +799,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_decatur_il_p1__oj6CGk_04.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_decatur_il_p1__oj6CGk_04.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -823,7 +823,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_concord_nh_p1_1__71jGNF_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_concord_nh_p1_1__71jGNF_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -847,7 +847,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_concord_nh_p1_2__lYLqNm_02.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_concord_nh_p1_2__lYLqNm_02.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -871,7 +871,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_chester_pa__Bbu9Nz_05.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_chester_pa__Bbu9Nz_05.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -895,7 +895,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_winchester_va__wWEeQK_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_winchester_va__wWEeQK_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -919,7 +919,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_pueblo_co_p1__KCMBbk_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_pueblo_co_p1__KCMBbk_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -943,7 +943,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_south_bend_in_p1__LIb6gd_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_south_bend_in_p1__LIb6gd_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -967,7 +967,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_wilmington_de_p1__LXeELV_00.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_wilmington_de_p1__LXeELV_00.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -991,7 +991,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_akron_oh_p1__DzaHis_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_akron_oh_p1__DzaHis_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -1015,7 +1015,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_alexandria_va__SCTBBO_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_alexandria_va__SCTBBO_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -1039,7 +1039,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_lawrence_ks__oGGOUK_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_lawrence_ks__oGGOUK_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -1063,7 +1063,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_little_rock_ar__5Wn7ls_02.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_little_rock_ar__5Wn7ls_02.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -1087,7 +1087,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_boise_id_p1__Q4h9VK_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_boise_id_p1__Q4h9VK_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
@@ -1111,7 +1111,7 @@
       "version": "1.0.0",
       "scheme": "xyz",
       "tiles": [
-        "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}@2x.png?TileMatrixSetId=WebMercatorQuad&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_casper_wy__IXvMCl_01.tif"
+        "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_casper_wy__IXvMCl_01.tif"
       ],
       "minzoom": 10,
       "maxzoom": 21,
